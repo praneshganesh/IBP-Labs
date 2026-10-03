@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     siteName: "IBP Labs",
     type: "website",
   },
+  verification: {
+    google: "HmtCJ7pmSTcRPF3F8t1Ek7pHqaS0SVdSu8bqTuMmA0M",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
