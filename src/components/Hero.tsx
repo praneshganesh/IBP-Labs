@@ -55,11 +55,11 @@ function PathToFireCard() {
   );
 }
 
-function LifeOSCard() {
+function SaaviCard() {
   const items = [
-    { icon: "🛂", text: "Passport expires in 8 months" },
+    { icon: "🔧", text: "AC service due this weekend" },
     { icon: "🚗", text: "Car insurance renews in 21 days" },
-    { icon: "🧾", text: "Return window closes tomorrow" },
+    { icon: "📺", text: "Netflix renews in 3 days" },
   ];
   return (
     <motion.div
@@ -68,7 +68,7 @@ function LifeOSCard() {
       className="w-64 rounded-2xl border border-hairline bg-white p-5 shadow-[0_24px_60px_-24px_rgba(17,17,20,0.18)]"
     >
       <div className="flex items-center justify-between">
-        <span className="text-xs font-medium text-muted">LifeOS</span>
+        <span className="text-xs font-medium text-muted">Saavi</span>
         <span className="rounded-full bg-indigo-600/10 px-2 py-0.5 text-[10px] font-medium text-indigo-700">
           Coming soon
         </span>
@@ -90,8 +90,8 @@ function LifeOSCard() {
         ))}
       </div>
       <div className="mt-4 flex items-center justify-between border-t border-hairline pt-3 text-xs">
-        <span className="text-muted">Under warranty</span>
-        <span className="font-medium">23 assets</span>
+        <span className="text-muted">Things tracked</span>
+        <span className="font-medium">142</span>
       </div>
     </motion.div>
   );
@@ -207,7 +207,7 @@ export default function Hero() {
               <PathToFireCard />
             </div>
             <div className="absolute right-0 bottom-4 rotate-3">
-              <LifeOSCard />
+              <SaaviCard />
             </div>
           </motion.div>
         </div>

@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
         <p>
           IBP Labs LLC (&quot;IBP Labs&quot;, &quot;we&quot;, &quot;us&quot;) is
           an independent app studio that builds and publishes software
-          products, including PathToFIRE and LifeOS. We build our products
+          products, including PathToFIRE and Saavi. We build our products
           with privacy as a core principle: we do not sell personal data, we
           do not show advertising, and we collect only what is needed to make
           our products work.
@@ -36,6 +36,13 @@ export default function PrivacyPolicy() {
             rel="noopener noreferrer"
           >
             pathtofire.me
+          </a>
+          , and Saavi&apos;s privacy policy is available at{" "}
+          <a
+            href="/saavi/privacy"
+            className="text-accent underline underline-offset-2"
+          >
+            ibp-labs.com/saavi/privacy
           </a>
           . Where this policy and a product policy differ, the product policy
           governs your use of that product.

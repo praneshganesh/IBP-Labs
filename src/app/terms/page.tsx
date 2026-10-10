@@ -23,7 +23,7 @@ export default function TermsOfService() {
         <p>
           IBP Labs LLC (&quot;IBP Labs&quot;, &quot;we&quot;, &quot;us&quot;)
           is an independent app studio that builds and publishes software
-          products, including PathToFIRE and LifeOS. This website provides
+          products, including PathToFIRE and Saavi. This website provides
           information about our company and products.
         </p>
       </LegalSection>
@@ -40,6 +40,13 @@ export default function TermsOfService() {
             rel="noopener noreferrer"
           >
             pathtofire.me
+          </a>
+          , and Saavi&apos;s terms are available at{" "}
+          <a
+            href="/saavi/terms"
+            className="text-accent underline underline-offset-2"
+          >
+            ibp-labs.com/saavi/terms
           </a>
           . Where these Terms and a product&apos;s terms differ, the
           product&apos;s terms govern your use of that product.

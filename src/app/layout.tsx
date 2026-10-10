@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://ibp-labs.com"),
   title: "IBP Labs — Private, AI-powered personal software",
   description:
-    "IBP Labs is an independent app studio building private, AI-powered software for modern life — from wealth planning with PathToFIRE to life administration with LifeOS.",
+    "IBP Labs is an independent app studio building private, AI-powered software for modern life — from wealth planning with PathToFIRE to home management with Saavi.",
   openGraph: {
     title: "IBP Labs",
     description:

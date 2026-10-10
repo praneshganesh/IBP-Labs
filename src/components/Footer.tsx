@@ -10,7 +10,7 @@ const columns = [
         href: "https://www.pathtofire.me/",
         external: true,
       },
-      { label: "LifeOS — coming soon", href: "/#products" },
+      { label: "Saavi — coming soon", href: "/#products" },
     ],
   },
   {
