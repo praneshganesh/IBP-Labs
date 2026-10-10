@@ -7,6 +7,7 @@ type Product = {
   features: string[];
   status: "Live" | "Coming soon";
   href?: string;
+  legal?: { privacy: string; terms: string };
   gradient: string;
   accent: string;
 };
@@ -42,6 +43,7 @@ const products: Product[] = [
       "Sign in with Apple",
     ],
     status: "Coming soon",
+    legal: { privacy: "/saavi/privacy", terms: "/saavi/terms" },
     gradient: "from-indigo-50 to-violet-50/40",
     accent: "text-indigo-700",
   },
@@ -103,7 +105,7 @@ export default function Products() {
                     </span>
                   ))}
                 </div>
-                <div className="mt-auto pt-10">
+                <div className="mt-auto flex flex-wrap items-center justify-between gap-3 pt-10">
                   {product.href ? (
                     <span className="inline-flex items-center gap-2 text-sm font-medium">
                       Visit pathtofire.me
@@ -114,6 +116,22 @@ export default function Products() {
                   ) : (
                     <span className="text-sm text-muted">
                       In development — launching soon.
+                    </span>
+                  )}
+                  {product.legal && (
+                    <span className="flex gap-4 text-sm">
+                      <a
+                        href={product.legal.privacy}
+                        className="text-foreground/70 underline underline-offset-4 transition-colors hover:text-foreground"
+                      >
+                        Privacy
+                      </a>
+                      <a
+                        href={product.legal.terms}
+                        className="text-foreground/70 underline underline-offset-4 transition-colors hover:text-foreground"
+                      >
+                        Terms
+                      </a>
                     </span>
                   )}
                 </div>

@@ -25,6 +25,8 @@ const columns = [
     links: [
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Service", href: "/terms" },
+      { label: "Saavi Privacy", href: "/saavi/privacy" },
+      { label: "Saavi Terms", href: "/saavi/terms" },
     ],
   },
 ];
